@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bgimage{
+    background-image: url('bg6.jpg');
+    background-size: 100% 105%;
+    width: 100%;
+    height: 100vh;
+}
+.menu{
+    width: 100%;
+    height: 90px;
+    background-color: rgba(120,120,120,255);
+    box-shadow: rgba(120,120,120,255);
+}
+.leftmenu{
+width: 25%;
+line-height: 100px;
+float: left;
+}
+.leftmenu img{
+    width: 60%;
+    height: 90px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 3px;
+    margin-left: 10%;
+}
+.leftmenu h3{
+    padding-left: 70px;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.rightmenu{
+    width: 75%;
+    height: 100px;
+    float: right;
+}
+.rightmenu ul {
+    margin-left: 45%;
+}
+.rightmenu ul li{
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    line-height: 100px;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.rightmenu ul li a{
+    text-decoration: none;
+    color: white;
+}
+#firstlist{
+    color: lightsalmon;
+}
+.rightmenu ul li a:hover{
+    color: lightsalmon;
+    cursor: pointer;
+}
+/* .rightmenu ul li a:active{
+    color: black !important;
+    font-size: 18px;
+} */
+
+.text{
+    width: 100%;
+    margin-top: 14%;
+    text-transform: uppercase;
+    text-align: center;
+    color: lightsalmon;
+}
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .text h1{
+    animation: 2s ease-out 0s 1 slideInFromLeft;
+  }
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .text h3{
+    animation: 2s ease-out 0s 1 slideInFromRight;
+  }
+#square{
+    color: lightsalmon;  
+    font-size: 48px;
+    font-weight: bold;
+}
+.text h4{
+font-size: 24px;
+font-family: 'Roboto', sans-serif;
+}
+.text h1{
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+    word-spacing: 2px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    }
+    .text h3{
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+        }
+    #getstarted_btn{
+            font-size: 16px;
+            display: inline-block;
+            font-weight: bold;
+            background-color: lightsalmon;  
+            color:white;
+            border: none;
+            text-transform: uppercase;
+            font-family: 'Lato', sans-serif;
+            width: 150px;
+            height: 40px;
+            border-radius: 3px;
+            margin-top: 10px;
+            cursor: pointer;
+            margin-bottom: 2%;
+        }
+        #getstarted_btn:hover{
+            background-color: white;
+            color: lightsalmon;
+            
+        }
+        .link_elm{
+            text-decoration: none;
+        }
+        #footer{
+        position: fixed;
+        padding: 10px 10px 0px 10px;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        /* Height of the footer*/ 
+        height: 40px;
+        font-family: 'Lato', sans-serif;
+        color: white;
+        background: grey;
+        opacity: 0.6;}

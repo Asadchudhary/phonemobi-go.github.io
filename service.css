@@ -1,0 +1,73 @@
+.main_body{
+    width: 100%;
+    height:100vh;
+    background-color: #fefbe9;
+    
+   
+}
+.container{
+    width: 80%;
+    height:55vh;
+    display: flex;
+    flex-direction: row;
+justify-content: space-evenly;
+position: absolute;
+  top: 28%;
+  left: 10%;
+background-color: #fefbe9;
+
+
+}
+.head_title{
+    justify-content: center;
+    margin-left: 41%;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: lightsalmon;
+}
+.card{
+    background-color: white;
+    border-radius: 10px;
+    border: 2px;
+    border-color: #3581fc;
+    width: 250px;
+    
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+.card-img-top{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px 10px 0 0 ;
+}
+.card-title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: lightsalmon;
+}
+.card-text{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+
+#started_btn{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: lightsalmon;  
+    color:white;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    width: 130px;
+    height: 40px;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 23%;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
